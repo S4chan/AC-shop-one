@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# ALPHA Shop I：元件拆分
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+此專案為練習 React 元件化設計與拆分的電商結帳頁面。專案中模擬了一個三步驟的購物結帳流程，包含地址輸入、運送方式選擇，以及付款資訊填寫。
 
-## Available Scripts
+透過元件拆分的方式，學習如何構建清晰且模組化的 React 應用程式，提升程式的可讀性與維護性。
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 功能特色
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **多步驟結帳流程**：
+  - 步驟一：填寫寄送地址。
+  - 步驟二：選擇運送方式。
+  - 步驟三：填寫付款資訊。
+- **元件化設計**：
+  - 將進度條、表單內容與按鈕控制拆分為可重用的 React 元件。
+- **使用 SCSS 管理樣式**：
+  - 採用 SCSS 作為樣式預處理器，實現模組化與變數化的樣式管理。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 專案畫面預覽
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Alpha Shop Preview](/src/assets/shopOneSample.png)
 
-### `npm run build`
+> 預覽圖可替換為專案的實際截圖。
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 環境需求
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/) 版本 16 以上
+- npm 或 yarn 套件管理工具
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 安裝與使用
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone 專案**
+   ```bash
+   git clone https://github.com/S4chan/AC-shop-one.git
+   cd AC-shop-one
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. 安裝所需套件
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+請確保已安裝 Node.js 和 npm，再執行以下指令：
 
-## Learn More
+```bash
+$ npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 3. 啟動專案
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+$ npm start
+```
 
-### Code Splitting
+瀏覽器會自動打開，或手動打開 [http://localhost:3000](http://localhost:3000)。
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 使用技術
 
-### Analyzing the Bundle Size
+- React 18
+- SCSS
+- Node.js 18
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 作者
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[S4chan](https://github.com/S4chan)
