@@ -1,8 +1,8 @@
 import "../styles/main.scss";
 import StepProgress from "./StepProgress";
-import StepOne from "./StepOne";
-import StepTwo from "./StepTwo";
-import StepThree from "./StepThree";
+import StepOne from "./step/StepOne";
+import StepTwo from "./step/StepTwo";
+import StepThree from "./step/StepThree";
 import ProgressControl from "./ProgressControl";
 
 export default function Main() {
