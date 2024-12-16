@@ -1,4 +1,4 @@
-# ALPHA Shop I：元件拆分
+# ALPHA Shop II：元件渲染
 
 此專案為練習 React 元件化設計與拆分的電商結帳頁面。專案中模擬了一個三步驟的購物結帳流程，包含地址輸入、運送方式選擇，以及付款資訊填寫。
 
@@ -21,9 +21,11 @@
 
 ## 專案畫面預覽
 
-![Alpha Shop Preview](/src/assets/shopOneSample.png)
+> 第一單元練習。
+> ![Alpha Shop Preview](/src/assets/shopOneSample.png)
 
-> 預覽圖可替換為專案的實際截圖。
+> 第二單元練習。
+> ![Alpha Shop Preview](/src/assets/shopTwoSample.png)
 
 ---
 

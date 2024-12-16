@@ -4,6 +4,8 @@ import StepOne from "./step/StepOne";
 import StepTwo from "./step/StepTwo";
 import StepThree from "./step/StepThree";
 import ProgressControl from "./ProgressControl";
+import Cart from "./Cart";
+import initial from "../assets/data";
 
 export default function Main() {
   return (
@@ -30,6 +32,8 @@ export default function Main() {
               <StepThree />
             </section>
           </section>
+          {/* cart */}
+          <Cart products={initial} />
           {/* progress-control */}
           <ProgressControl />
         </div>
